@@ -51,8 +51,6 @@ for i, cornerint in enumerate(cornerints):
     else:
         lowval = cornerints[i-1]
         highval = cornerints[i]
-    #print(lowval)
-    #print(highval)
     if lowval <= puzzleinput <= highval:
         print("Corner range is {0} and {1}".format(lowval,highval))
         midptval = highval - (midpointcoord - 1)
